@@ -8,7 +8,7 @@ There are several ways to run the project.
 
    -  Open the index.html file in the dist folder using a server.
    -  If you are using visual studio code, an extension such as live server works
-   -  Editors such as sublimetxt, atom, brackets have a plugin of some sort that can serve html files
+   -  Editors such as sublimetxt, atom, brackets have a live server plugin that can serve html files
 
 2) Using npm
 
