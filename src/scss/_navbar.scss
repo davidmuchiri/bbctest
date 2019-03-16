@@ -1,0 +1,25 @@
+.navbar {
+   width: 100vw;
+   height: 80px;
+   background: var(--bbcRed);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   @include responsive(big-desktop) {
+      height: 100px;
+   }
+}
+.navbar--container {
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+.navbar--brand {
+   width: 100px;
+   display: flex;
+   align-items: center;
+
+   & > img {
+      width: 100%;
+   }
+}

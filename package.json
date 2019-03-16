@@ -1,0 +1,39 @@
+{
+   "name": "bbctest",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "build": "webpack --config webpack.config.js",
+      "start": "webpack-dev-server --config webpack.config.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@babel/polyfill": "^7.2.5",
+      "uglifyjs-webpack-plugin": "^2.1.2"
+   },
+   "devDependencies": {
+      "@babel/cli": "^7.2.3",
+      "@babel/core": "^7.3.4",
+      "@babel/preset-env": "^7.3.4",
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^10.0.1",
+      "babel-loader": "^8.0.5",
+      "babel-minify-webpack-plugin": "^0.3.1",
+      "babel-plugin-dynamic-import-node": "^2.2.0",
+      "compression-webpack-plugin": "^2.0.0",
+      "css-loader": "^2.1.1",
+      "eslint": "^5.15.1",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.5.0",
+      "node-sass": "^4.11.0",
+      "prettier": "^1.16.4",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.23.1",
+      "webpack": "^4.29.6",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.2.1"
+   }
+}

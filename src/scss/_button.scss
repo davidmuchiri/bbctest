@@ -1,0 +1,15 @@
+.btn {
+   height: 30px;
+   width: 80px;
+   border-radius: 3px;
+   border: none;
+   background: var(--matteBlack);
+   color: var(--white);
+   cursor: pointer;
+   font-family: inherit;
+   font-size: 1.6rem;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      transform: scale(1.05);
+   }
+}
